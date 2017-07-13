@@ -1,7 +1,7 @@
 {
   "name": "randlorem",
   "version": "1.0.0",
-  "description": "",
+  "description": "The Big Lebowski lorem ipsum generator.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,12 +13,25 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "mustache-express": "^1.2.4",
-    "lorem-ipsum": "^1.0.4"
+    "lorem-ipsum": "^1.0.4",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.5"
   },
   "devDependencies": {
     "chai": "^4.1.0",
     "mocha": "^3.4.2",
     "supertest": "^3.0.0"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/filzilla/the-lorem-abides.git"
+  },
+  "bugs": {
+    "url": "https://github.com/filzilla/the-lorem-abides/issues"
+  },
+  "homepage": "https://github.com/filzilla/the-lorem-abides#readme"
 }
