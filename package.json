@@ -4,7 +4,7 @@
   "description": "The Big Lebowski lorem ipsum generator.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node main.js",
     "start:dev": "nodemon main.js"
   },
