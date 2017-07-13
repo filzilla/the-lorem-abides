@@ -35,5 +35,15 @@ background-image: url('../images/stars.png');
 	background-size: cover;
 
 }
+.big-button{
+
+	font-size: 2em;
+}
+.button{
+	height: 50px;
+	width: 100px;
+
+
+}
 =======
 >>>>>>> b86412905e90364d99a3c4f08379f96a40ddd2b0
