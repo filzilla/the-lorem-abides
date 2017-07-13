@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Lebowski Lorem Ipsum</title>
     <link rel="stylesheet" type= "text/css" href="./stylesheets/styles.css">
-<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Pacifico|Vibur" rel="stylesheet">
   </head>
   <body>
 
@@ -21,27 +20,31 @@
     </header>
     <div class =" bowling"
     <form action="/" method="get">
-      <select name="words">Number of Words
+      <label for="words">Words</label>
+      <select name="words">
         <option value="10">10</option>
         <option value="15">15</option>
         <option value="20">20</option>
         <option value="25">25</option>
         <option value="30">30</option>
       </select>
-      <select name="sentences">Number of Sentences
+      <label for="sentences">Sentences</label>
+      <select name="sentences">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
         <option value="5">5</option>
       </select>
-      <select name="paragraphs">Number of Paragraphs
+      <label for="paragraphs">Paragraphs</label>
+      <select name="paragraphs">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
         <option value="5">5</option>
       </select>
+      <input type="submit" value="Submit">
     </form>
     </div>
     {{content}}

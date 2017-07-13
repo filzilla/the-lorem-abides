@@ -2,13 +2,21 @@ const express = require('express');
 const path = require('path');
 const body_parser = require('body-parser');
 const mustache = require('mustache-express');
+<<<<<<< HEAD
+=======
+
+>>>>>>> b86412905e90364d99a3c4f08379f96a40ddd2b0
 const index = require('./routes/index');
 const lebowski_data = require('./lib/data');
 
 const application = express();
 
+// view engine setup
 application.engine('mustache', mustache());
+<<<<<<< HEAD
 
+=======
+>>>>>>> b86412905e90364d99a3c4f08379f96a40ddd2b0
 application.set('views', path.join(__dirname, 'views'));
 application.set('view engine', 'mustache');
 
@@ -19,6 +27,10 @@ application.use(express.static(path.join(__dirname, 'public')));
 application.use('/', index);
 
 // misc middleware
+<<<<<<< HEAD
+=======
+application.use(body_parser.json());
+>>>>>>> b86412905e90364d99a3c4f08379f96a40ddd2b0
 application.use(body_parser.urlencoded({ extended: false }));
 
 // error handling middleware
@@ -39,6 +51,7 @@ application.use((error, request, response, next) => {
 application.listen(3000, () => {
     console.log('Listening on 3000')
 });
+<<<<<<< HEAD
 
 
 /******DATA******/
@@ -69,3 +82,5 @@ function shuffle_array(lebowski_array){
 //R rated version
 //every n(user input variable) letter in the ipsum
 //
+=======
+>>>>>>> b86412905e90364d99a3c4f08379f96a40ddd2b0
